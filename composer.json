@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/ecm",
+    "description": "TencentCloudApi php sdk ecm",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/ecm",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/ecm",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "VERSION"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
